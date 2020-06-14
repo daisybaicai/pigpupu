@@ -1,0 +1,25 @@
+{
+  "name": "pigpupu",
+  "version": "1.0.0",
+  "description": "when you do a project, it can be as easy as piggy farting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commitmsg": "validate-commit-msg"
+  },
+  "keywords": [
+    "pigpupu"
+  ],
+  "author": "daisybaicai",
+  "license": "ISC",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.2.0",
+    "husky": "^4.2.5",
+    "validate-commit-msg": "^2.14.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
